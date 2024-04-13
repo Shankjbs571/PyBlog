@@ -55,9 +55,11 @@ PyBlog is a FastAPI application for managing a simple blog system with user auth
    pip install -r requirements.txt
 
 3. Create MySQL databse:
-   -Create a MySQL database and user (if not already done) and update database.py with your MySQL database configuration.
+   - Create a MySQL database and user (if not already done) and update database.py with your MySQL database configuration.
+   - Create a .env file in your project directory.
+     - Add your secret key variables to the .env file. 
 
-4. Run the Application:
+5. Run the Application:
 
    ```sh
    python app/main.py
