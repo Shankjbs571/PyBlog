@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+SQLAlchemy
+pydantic
+pydantic[email]
+mysql-connector-python
+python-jose
+passlib
+python-multipart
+python-dotenv
+cachetools
